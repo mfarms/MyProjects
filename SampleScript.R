@@ -1,3 +1,6 @@
 rm(list = ls())
 
-set.seed(125)
+set.seed(123)
+
+x = 20 
+save(x, file = "x.RData")
